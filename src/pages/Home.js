@@ -13,7 +13,7 @@ function Home() {
                 <div className="row">
                     <div className="col-md-6 image-className">
                         <div className="flashcard">
-                            <img src={mainImage} alt="Left Flashcard Image" className="welcome-image" />
+                            <img src={mainImage} alt="LeftFlashcardImage" className="welcome-image" />
                         </div>
                     </div>
                     <div className="col-md-6 text-center welcome-header-className">
@@ -41,13 +41,13 @@ function Home() {
             <div className="container">
                 <div className="grid-container">
                      <div className="grid-item">
-                         <img src="1.png" alt="Image 1" />
+                         <img src="1.png" alt="Image1" />
                              <p className="text-paragraph">NATURAL FOOD</p>
                              <br/>
                             <p className="text-paragraph">Lorem ipsum dolor conse ctetur adipisicing elit sed do eiusmo tem incididunt laboreapericons.</p>
                         </div>
                 <div className="grid-item">
-                    <img src="2.png" alt="Image 2"/>
+                    <img src="2.png" alt="Image2"/>
                     <p className="text-paragraph">SAFE FORMALIN</p>
                     <br/>
                     <p className="text-paragraph">Lorem ipsum dolor conse ctetur 
@@ -55,7 +55,7 @@ function Home() {
                         tem incididunt laboreapericons.</p>
                 </div>
                 <div className="grid-item">
-                    <img src="3.png" alt="Image 3" />
+                    <img src="3.png" alt="Image3" />
                     <p className="text-paragraph">100% TASTY FOOD</p>
                     <br/>
                     <p className="text-paragraph">Lorem ipsum dolor conse ctetur 
@@ -63,7 +63,7 @@ function Home() {
                         tem incididunt laboreapericons.</p>
                 </div>
                 <div className="grid-item">
-                    <img src="4.png" alt="Image 4" />
+                    <img src="4.png" alt="Image4" />
                     <p className="text-paragraph">EXCLUSIVE TEAM</p>
                     <br/>
                     <p className="text-paragraph">Lorem ipsum dolor conse ctetur 
