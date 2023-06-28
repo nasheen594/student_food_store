@@ -1,7 +1,7 @@
 import mapAndhra from '../Images/map_andhra1.png';
 import mapTelangana from '../Images/map_telangana.png';
 
-const aboutus = {
+const AboutusData = {
     leftFlashcard: {
         image: mapAndhra,
         alt: "Left Flashcard Image",
@@ -19,4 +19,4 @@ const aboutus = {
     }
 }
 
-export default aboutus;
+export default AboutusData;
