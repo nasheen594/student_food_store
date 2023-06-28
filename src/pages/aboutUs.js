@@ -1,5 +1,5 @@
 import React from "react";
-import aboutus from "../data/aboutus";
+import AboutusData from "../data/aboutus";
 import '../CSS/style.css';
 import '../CSS/index.css';
 import '../CSS/aboutUs.css';
@@ -14,9 +14,9 @@ function AboutUs() {
             <div className="row">
             <div className="col-md-4">
                 <div className="flashcard">
-                    <img src={aboutus.leftFlashcard.image} alt={aboutus.leftFlashcard.alt} className="flashcard-image" />
+                    <img src={AboutusData.leftFlashcard.image} alt={AboutusData.leftFlashcard.alt} className="flashcard-image" />
                     <div className="flashcard-overlay">
-                        <h5 className="flashcard-title flashcard-title-top-left">{aboutus.leftFlashcard.title}</h5>
+                        <h5 className="flashcard-title flashcard-title-top-left">{AboutusData.leftFlashcard.title}</h5>
                     </div>
                 </div>
             </div>
@@ -24,18 +24,18 @@ function AboutUs() {
                 <section id="introduction">
                     <div className="introduction-container">
                         <div className="introduction-content">
-                            <h3 className="discover_h1 header-discover">{aboutus.introduction.title}</h3>
-                            <p className="lead">{aboutus.introduction.subtitle}</p>
-                            <p>{aboutus.introduction.description}</p>
+                            <h3 className="discover_h1 header-discover">{AboutusData.introduction.title}</h3>
+                            <p className="lead">{AboutusData.introduction.subtitle}</p>
+                            <p>{AboutusData.introduction.description}</p>
                         </div>
                     </div>
                 </section>
             </div>
             <div className="col-md-4">
                 <div className="flashcard">
-                    <img src={aboutus.rightFlashcard.image} alt={aboutus.rightFlashcard.alt} className="flashcard-image" />
+                    <img src={AboutusData.rightFlashcard.image} alt={AboutusData.rightFlashcard.alt} className="flashcard-image" />
                     <div className="flashcard-overlay">
-                        <h5 className="flashcard-title flashcard-title-bottom-right">{aboutus.rightFlashcard.title}</h5>
+                        <h5 className="flashcard-title flashcard-title-bottom-right">{AboutusData.rightFlashcard.title}</h5>
                     </div>
                 </div>
             </div>
