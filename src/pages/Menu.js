@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import onAddToCart from '../pages/CartHandler';
+//import onAddToCart from '../pages/CartHandler';
 import foods from '../data/foods';
 import hero1 from '../Images/hero1.jpeg';
 import hero2 from '../Images/hero2.jpg';
@@ -31,7 +31,7 @@ function Menu({ cartItems, onAddToCart }) {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active c-item">
-              <img src={hero1} className="d-block w-100 c-img" alt="Image 1" />
+              <img src={hero1} className="d-block w-100 c-img" alt="Image1" />
               <div className="carousel-caption d-none d-md-block">
                 <h2>Breakfast</h2>
                 <p>Start your day with a hearty Andhra Pradesh breakfast.
@@ -43,7 +43,7 @@ function Menu({ cartItems, onAddToCart }) {
               </div>
             </div>
             <div className="carousel-item c-item">
-              <img src={hero2} className="d-block w-100 c-img" alt="Image 2" />
+              <img src={hero2} className="d-block w-100 c-img" alt="Image2" />
               <div className="carousel-caption d-none d-md-block">
                 <h2>Lunch</h2>
                 <p>For lunch, immerse yourself in the traditional dishes of both regions. Sample the tangy tamarind rice,
@@ -54,7 +54,7 @@ function Menu({ cartItems, onAddToCart }) {
               </div>
             </div>
             <div className="carousel-item c-item">
-              <img src={hero3} className="d-block w-100 c-img" alt="Image 3" />
+              <img src={hero3} className="d-block w-100 c-img" alt="Image3" />
               <div className="carousel-caption d-none d-md-block">
                 <h2>Dinner</h2>
                 <p>As the sun sets, indulge in a Telangana dinner that showcases the region's rich culinary heritage.
