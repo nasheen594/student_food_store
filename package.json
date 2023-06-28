@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://bommareddyr.github.io/jot-foods",
   "dependencies": {
+    "@babel/core": "^7.22.5",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -45,12 +46,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {
-    "@babel/core": "^7.22.5"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
