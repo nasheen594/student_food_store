@@ -1,5 +1,5 @@
 import React from 'react';
-import foods from '../data/foods';
+//import foods from '../data/foods';
 import idly from '../Images/idly.png';
 import dosa from '../Images/dosa.jpg';
 import tea from '../Images/tea.jpg';
@@ -27,7 +27,7 @@ function Breakfast() {
                                         </ul>
                                     </div>
                                     <div className="order-now">
-                                        <a href="#" className="btn mybutton">Order Now</a>
+                                        <a href="/" className="btn mybutton">Order Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ function Breakfast() {
                                         </ul>
                                     </div>
                                     <div className="order-now">
-                                    <a href="#" className="btn mybutton">Order Now</a>
+                                    <a href="/" className="btn mybutton">Order Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@ function Breakfast() {
                                         </ul>
                                     </div>
                                     <div className="order-now">
-                                    <a href="#" className="btn mybutton">Order Now</a>
+                                    <a href="/" className="btn mybutton">Order Now</a>
                                     </div>
                                 </div>
                             </div>
